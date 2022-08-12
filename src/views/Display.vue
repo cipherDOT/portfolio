@@ -9,15 +9,15 @@ export default {
 	data() {
 		return {
 			card1: "Web Develpment",
-            path1: "./src/assets/htmlsvg.svg",
+            path1: "../assets/htmlsvg.svg",
             body1: "A Full Stack developer",
 			
 			card2: "UI / UX",
-            path2: "./src/assets/uiuxsvg.svg",
+            path2: "../assets/uiuxsvg.svg",
             body2: "UI / UX designer",
 
 			card3: "Software",
-            path3: "./src/assets/softsvg.svg",
+            path3: "../assets/softsvg.svg",
             body3: "A passionate software develper",
 		}
 	}
