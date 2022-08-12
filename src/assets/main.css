@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+:root {
+	--accent: #22aadd;
+	/* --accent: #6AF2F0; */
+	--white: #eeeeee;
+	--secondary: #232323;
+	--secondary-trans: #23232388;
+	--background: #121212; 
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: var(--background);
+	color: #afafaf;
+	font-family: 'Poppins', sans-serif;
+	/* position: relative; */
+}
+
+.section-title {
+	margin: 2em;
+	color: var(--accent);
+}
+
+kinesis-element {
+	background-color: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 0.1em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--background);
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 100vw;
+}
