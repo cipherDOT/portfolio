@@ -21,7 +21,7 @@ export default {
     <kinesis-container>
         <kinesis-element v-if="useSVG" class="svg-container" :strength="-12" typeof="depth">
             <h1>{{ pathToSVG }}</h1>
-            <img :src=pathToSVG alt="" class="svg-icon">
+            <img :src=pathToSVG alt="jii" class="svg-icon">
         </kinesis-element>
         <img src="../assets/htmlsvg.svg" alt="" class="svg-icon">
         <kinesis-element class="card" :strength="-12" type="depth">

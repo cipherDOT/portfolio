@@ -30,13 +30,13 @@ export default {
 	<h1 class="section-title">What I Do</h1>
 	<div class="cards">
 		<div class="card">
-			<Card :head="card1" :body="body1" :useSVG="true" :pathToSVG="path1" />
+			<Card :head="card1" :body="body1" :useSVG="true" :pathToSVG=path1 />
 		</div>
 		<div class="card">
-			<Card :head="card2" :body="body2" :useSVG="true" :pathToSVG="path2" />
+			<Card :head="card2" :body="body2" :useSVG="true" :pathToSVG=path2 />
 		</div>
 		<div class="card">
-			<Card :head="card3" :body="body3" :useSVG="true" :pathToSVG="path3" />
+			<Card :head="card3" :body="body3" :useSVG="true" :pathToSVG=path3 />
 		</div>
 	</div>
 </div>
