@@ -20,7 +20,7 @@ export default {
 <a :href="linkToProject" target="_blank">
     <kinesis-container>
         <kinesis-element v-if="useSVG" class="svg-container" :strength="-12" typeof="depth">
-            <img :src=pathToSVG alt="jii" class="svg-icon">
+            <img :src=pathToSVG class="svg-icon">
         </kinesis-element>
         <kinesis-element class="card" :strength="-12" type="depth">
             <kinesis-element :strength="12" type="depth" class="card-text">
