@@ -129,7 +129,7 @@ kinesis-element {
 
 .mebw-pp {
 	width: 18em;
-	height: 24em;
+	height: 26em;
 }
 
 .img-container {
